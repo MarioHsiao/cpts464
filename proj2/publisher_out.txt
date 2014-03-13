@@ -1,0 +1,10 @@
+[bhanders@rti-dds-05 proj2]$ ./objs/x64Linux2.6gcc4.4.5/top_publisher                                                                            
+RTI Data Distribution Service University License issued to Washington State University tgamage@eecs.wsu.edu For non-production use only.         
+Expires on 14-jan-2015 See www.rti.com for more information.                                                                                     
+Writing TopFunction, count 0                                                                                                                     
+bhanders                                                                                                                                         
+Writing TopFunction, count 1                                                                                                                     
+bhanders                                                                                                                                         
+Wrting TopFunction, count 2                                                                                                                     
+bhanders                                                                                                                                         
+^C                                                                                                                                               

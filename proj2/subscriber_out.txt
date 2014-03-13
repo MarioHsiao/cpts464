@@ -1,0 +1,38 @@
+[bhanders@rti-dds-05 proj2]$ ./objs/x64Linux2.6gcc4.4.5/top_subscriber                                                                           
+RTI Data Distribution Service University License issued to Washington State University tgamage@eecs.wsu.edu For non-production use only.         
+Expires on 14-jan-2015 See www.rti.com for more information.                                                                                     
+TopFunction subscriber sleeping for 4 sec...                                                                                                     
+TopFunction subscriber sleeping for 4 sec...                                                                                                     
+                                                                                                                                                 
+   username: "bhanders"                                                                                                                          
+  hostname: "rti-dds-05.eecs.wsu.edu"                                                                                                           
+   currentTime: "2014-03-13.09:26:16"                                                                                                            
+   cpuUsage: 0.000000                                                                                                                            
+   memUsage: 91.156097                                                                                                                           
+   procNumber: 135                                                                                                                               
+TopFunction subscriber sleeping for 4 sec...                                                                                                     
+                                                                                                                                                 
+   usrname: "bhanders"                                                                                                                          
+   hostname: "rti-dds-05.eecs.wsu.edu"                                                                                                           
+   currentTime: "2014-03-13.09:26:21"                                                                                                            
+   cpuUsage: 0.000000                                                                                                                            
+   memUsage: 91.156097                                                                                                                           
+   procNumber: 135                                                                                                                               
+TopFunction subscriber sleeping for 4 sec...                                                                                                     
+                                                                                                                                                
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                                
+                                                                                                                                                 
+                                                                                                                                                 
