@@ -1,0 +1,131 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly SPTS_type, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly nddsdotnet45, Version=1.6.1.1, Culture=neutral, PublicKeyToken=f319a9351e41fb68: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Position: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    DDS.ICopyable`1[Position]
+  Fields:
+    System.String timestamp : Public
+    System.String route : Public
+    System.String vehicle : Public
+    Int32 stopNumber : Public
+    Int32 numStops : Public
+    Int32 timeBetweenStops : Public
+    System.String trafficConditions : Public
+    Int32 fillInRatio : Public
+  Methods:
+    clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    copy_from(Position): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_typecode(): PrivateScope, Public, Static, HideBySig
+Class PositionSeq: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :DDS.UserRefSequence`1[Position]
+    Void .ctor(PositionSeq): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Accident: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    DDS.ICopyable`1[Accident]
+  Fields:
+    System.String timestamp : Public
+    System.String route : Public
+    System.String vehicle : Public
+    Int32 stopNumber : Public
+  Methods:
+    clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    copy_from(Accident): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_typecode(): PrivateScope, Public, Static, HideBySig
+Class AccidentSeq: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :DDS.UserRefSequence`1[Accident]
+    Void .ctor(AccidentSeq): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PositionPlugin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.DefaultTypePlugin`1[Position]
+  Methods:
+    print_data(Position, String, UInt32): PrivateScope, Public, HideBySig
+    serialize(TypePluginDefaultEndpointData, Position, CdrStream&, Boolean(HasFieldMarshal), UInt16, Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    deserialize_sample(TypePluginDefaultEndpointData, Position, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    skip(TypePluginDefaultEndpointData, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, HideBySig
+    get_serialized_sample_max_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_sample_min_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_sample_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32, Position): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_key_max_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    serialize_key(TypePluginDefaultEndpointData, Position, CdrStream&, Boolean(HasFieldMarshal), UInt16, Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    deserialize_key_sample(TypePluginDefaultEndpointData, Position, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    serialized_sample_to_key(TypePluginDefaultEndpointData, Position, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, HideBySig
+    get_instance(): PrivateScope, Public, Static, HideBySig
+    dispose(): PrivateScope, Public, Static, HideBySig
+Class AccidentPlugin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.DefaultTypePlugin`1[Accident]
+  Methods:
+    print_data(Accident, String, UInt32): PrivateScope, Public, HideBySig
+    serialize(TypePluginDefaultEndpointData, Accident, CdrStream&, Boolean(HasFieldMarshal), UInt16, Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    deserialize_sample(TypePluginDefaultEndpointData, Accident, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    skip(TypePluginDefaultEndpointData, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, HideBySig
+    get_serialized_sample_max_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_sample_min_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_sample_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32, Accident): PrivateScope, Public, Virtual, HideBySig
+    get_serialized_key_max_size(TypePluginDefaultEndpointData, Boolean(HasFieldMarshal), UInt16, UInt32): PrivateScope, Public, Virtual, HideBySig
+    serialize_key(TypePluginDefaultEndpointData, Accident, CdrStream&, Boolean(HasFieldMarshal), UInt16, Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    deserialize_key_sample(TypePluginDefaultEndpointData, Accident, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, Virtual, HideBySig
+    serialized_sample_to_key(TypePluginDefaultEndpointData, Accident, CdrStream&, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Object): PrivateScope, Public, HideBySig
+    get_instance(): PrivateScope, Public, Static, HideBySig
+    dispose(): PrivateScope, Public, Static, HideBySig
+Class PositionTypeSupport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedTypeSupport`1[Position]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TYPENAME : Public, Static
+  Methods:
+    get_type_name(): PrivateScope, Public, Static, HideBySig
+    register_type(DomainParticipant, String): PrivateScope, Public, Static, HideBySig
+    unregister_type(DomainParticipant, String): PrivateScope, Public, Static, HideBySig
+    create_data(): PrivateScope, Public, Static, HideBySig
+    delete_data(Position): PrivateScope, Public, Static, HideBySig
+    print_data(Position): PrivateScope, Public, Static, HideBySig
+    copy_data(Position, Position): PrivateScope, Public, Static, HideBySig
+    create_datareaderI(IntPtr): PrivateScope, Public, Virtual, HideBySig
+    create_datawriterI(IntPtr): PrivateScope, Public, Virtual, HideBySig
+    create_data_untyped(): PrivateScope, Public, Virtual, HideBySig
+    get_type_name_untyped(): PrivateScope, Public, Virtual, HideBySig
+    get_instance(): PrivateScope, Public, Static, HideBySig
+Class PositionDataReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedDataReader`1[Position]
+Class PositionDataWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedDataWriter`1[Position]
+Class AccidentTypeSupport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedTypeSupport`1[Accident]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TYPENAME : Public, Static
+  Methods:
+    get_type_name(): PrivateScope, Public, Static, HideBySig
+    register_type(DomainParticipant, String): PrivateScope, Public, Static, HideBySig
+    unregister_type(DomainParticipant, String): PrivateScope, Public, Static, HideBySig
+    create_data(): PrivateScope, Public, Static, HideBySig
+    delete_data(Accident): PrivateScope, Public, Static, HideBySig
+    print_data(Accident): PrivateScope, Public, Static, HideBySig
+    copy_data(Accident, Accident): PrivateScope, Public, Static, HideBySig
+    create_datareaderI(IntPtr): PrivateScope, Public, Virtual, HideBySig
+    create_datawriterI(IntPtr): PrivateScope, Public, Virtual, HideBySig
+    create_data_untyped(): PrivateScope, Public, Virtual, HideBySig
+    get_type_name_untyped(): PrivateScope, Public, Virtual, HideBySig
+    get_instance(): PrivateScope, Public, Static, HideBySig
+Class AccidentDataReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedDataReader`1[Accident]
+Class AccidentDataWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :DDS.TypedDataWriter`1[Accident]

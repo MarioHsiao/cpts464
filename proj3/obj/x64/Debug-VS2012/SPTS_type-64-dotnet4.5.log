@@ -1,0 +1,37 @@
+﻿Build started 4/29/2014 6:52:48 PM.
+     1>Project "C:\Users\Bryce\Documents\prog3cs\SPTS_type-64-dotnet4.5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\RTI\ndds.5.1.0\include" /I"C:\Program Files (x86)\RTI\ndds.5.1.0\include\ndds" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /D NDDS_USER_DLL_EXPORT_SPTS /D NDDS_DLL_VARIABLE /D RTI_WIN32 /D WIN32_LEAN_AND_MEAN /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x64\Debug-VS2012\\" /Fd"obj\x64\Debug-VS2012\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddsdotnet45.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt /clr:nostdlib SPTS.cpp SPTSPlugin.cpp SPTSSupport.cpp
+         SPTS.cpp
+         SPTSPlugin.cpp
+         SPTSSupport.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\RTI\ndds.5.1.0\include" /I"C:\Program Files (x86)\RTI\ndds.5.1.0\include\ndds" /Zi /clr /nologo /W3 /WX- /Od /D NDDS_USER_DLL_EXPORT_SPTS /D NDDS_DLL_VARIABLE /D RTI_WIN32 /D WIN32_LEAN_AND_MEAN /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x64\Debug-VS2012\\" /Fd"obj\x64\Debug-VS2012\vc110.pdb" /TP /errorReport:prompt "C:\Users\Bryce\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_type.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5" nddscppd.lib nddscd.lib nddscored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_type.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL "obj\x64\Debug-VS2012\SPTS.obj"
+         "obj\x64\Debug-VS2012\SPTSPlugin.obj"
+         "obj\x64\Debug-VS2012\SPTSSupport.obj"
+         "obj\x64\Debug-VS2012\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         SPTS_type-64-dotnet4.5.vcxproj -> C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_type.dll
+       PostBuildEvent:
+         copy /y  "C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\*.dll"  "C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\"
+         :VCEnd
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddsc.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddscd.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddscore.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddscored.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddscpp.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddscppd.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddsdotnet45.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\nddsdotnet45d.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\rticonnextmsgdotnet45.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\rticonnextmsgdotnet45d.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\rtimonitoring.dll
+         C:\Program Files (x86)\RTI\ndds.5.1.0\lib\x64Win64dotnet4.5\rtimonitoringd.dll
+                12 file(s) copied.
+     1>Done Building Project "C:\Users\Bryce\Documents\prog3cs\SPTS_type-64-dotnet4.5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.60

@@ -1,0 +1,8 @@
+C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_subscriber.exe
+C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_subscriber.pdb
+C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\nddsdotnet45.dll
+C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\SPTS_type.pdb
+C:\Users\Bryce\Documents\prog3cs\bin\x64\Debug-VS2012\nddsdotnet45.pdb
+C:\Users\Bryce\Documents\prog3cs\obj\x64\Debug\SPTS_subscriber-64-csharp.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\prog3cs\obj\x64\Debug\SPTS_subscriber.exe
+C:\Users\Bryce\Documents\prog3cs\obj\x64\Debug\SPTS_subscriber.pdb
